@@ -1,16 +1,22 @@
+<div align="center">
+  <img alt="AppVideo" title="Vídeo do App" src="screen-semanajs03.jpg" />
+
 # Semana-javascript-expert03
 
-Seja bem vindo(a) à terceira Semana Javascript Expert.
+</div>
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
-Marque esse projeto com uma estrela 🌟
+</p>
 
-O código fonte completo de cada aula está dividido nas seguintes pastas:
+## 🚀 Tecnologias
 
-- [Aula 01](./hacker-chat-aula01)
-- [Aula 02](./hacker-chat-aula02)
-- [Aula 03](./hacker-chat-aula03)
-- [Aula 04](./hacker-chat-aula04)
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## Preview
+- JavaScript
+- Node.Js - Blessed
 
-![project preview](./screen-semanajs03.jpg)
+## 💻 Projeto
+
+O Projeto é um chat via terminal criado apenas com JavaScript Node.Js e o utilitario Blessed-Contrib.
