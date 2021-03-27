@@ -19,6 +19,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Projeto é um chat via terminal, criado durante a semana JavaScript Expert 03.
+O Projeto é um chat via terminal, criado durante a semana JavaScript Expert 03 gerenciador por Erick Wendel.
+
+
 
 
