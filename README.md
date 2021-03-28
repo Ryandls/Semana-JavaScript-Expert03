@@ -19,4 +19,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Projeto é um chat via terminal criado apenas com JavaScript Node.Js e o utilitario Blessed-Contrib.
+O Projeto é um chat via terminal, criado durante a semana JavaScript Expert 03 gerenciado por Erick Wendel.
+
+
+
+
