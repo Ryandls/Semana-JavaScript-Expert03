@@ -20,7 +20,7 @@ export default class ComponentsBuilder {
         ch: ' ',
         inverse: true,
       },
-      // habilita cores e tags no texto
+      // habilita colocar cores e tags no texto
       tags: true,
     };
   }

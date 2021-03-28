@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "user01": "node index.js --username Bryan --room sala01 --hostUri http://localhost:9898",
+    "user02": "node index.js --username Douglas --room sala01 --hostUri http://localhost:9898",
+    "user03": "node index.js --username Santos --room sala01 --hostUri http://localhost:9898",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
