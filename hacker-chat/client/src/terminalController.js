@@ -23,7 +23,7 @@ export default class TerminalController {
   #onInputReceived(eventEmitter) {
     return function () {
       const message = this.getValue();
-      console.log(message);
+      eventEmitter.emit(constants.events.app.MESSAGE_SENT, message);
       this.clearValue();
     };
   }
@@ -41,6 +41,9 @@ export default class TerminalController {
 
   #onLogChanged({ screen, activityLog }) {
     return (msg) => {
+      // erickwendel left
+      // erickwendel join
+
       const [userName] = msg.split(/\s/);
       const collor = this.#getUserCollor(userName);
       activityLog.addItem(`{${collor}}{bold}${msg.toString()}{/}`);
@@ -50,6 +53,7 @@ export default class TerminalController {
   }
   #onStatusChanged({ screen, status }) {
     return (users) => {
+      // vamos pegar o primeiro elemento da lista
       const { content } = status.items.shift();
       status.clearItems();
       status.addItem(content);
